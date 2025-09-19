@@ -26,7 +26,7 @@ public class TodoListTest {
     @Test
     void addEmptyIgnore() {
         TodoList t = new TodoList();
-        t.add("   ");
+        t.add("    ");
         assertEquals(0, t.size());
     }
 }
